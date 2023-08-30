@@ -1,0 +1,53 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+<script src="./libs/anime.min.js"></script>
+
+<!--<script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/2198532.js?container_id=buzzsprout-small-player&player=small'></script>-->
+<script type="text/javascript" class="main-script" src="./js/scripts.min.js"></script>
+
+<script>
+
+    let polymorphs1 = document.querySelectorAll('.polymorph-svg');
+    anime({
+        targets: polymorphs1,
+        d: [
+
+            {value: 'M420.094 155.19C420.094 236.607 315.828 343.446 214.915 302.66C86.7078 250.8 -33.5452 238.088 9.73652 155.19C49.041 79.8567 133.655 36.653 214.915 7.72053C318.167 -29.0884 420.094 73.6959 420.094 155.19Z'},
+            {value: 'M495.778 189.953C495.778 280.649 345.813 329 231.721 329C117.628 329 -66.2604 207.889 25.1381 164.841C212.614 76.5623 117.628 0.604858 231.721 0.604858C345.813 0.604858 495.778 99.256 495.778 189.953Z'},
+            {value: 'M420.094 155.19C420.094 236.607 315.828 343.446 214.915 302.66C86.7078 250.8 -33.5452 238.088 9.73652 155.19C49.041 79.8567 133.655 36.653 214.915 7.72053C318.167 -29.0884 420.094 73.6959 420.094 155.19Z'},
+            {value: 'M495.778 189.953C495.778 280.649 345.813 329 231.721 329C117.628 329 -66.2604 207.889 25.1381 164.841C212.614 76.5623 117.628 0.604858 231.721 0.604858C345.813 0.604858 495.778 99.256 495.778 189.953Z'},
+
+        ],
+        direction: 'alternate',
+        loop: true,
+        easing: 'easeInOutSine',
+        delay: 5,
+        duration: 10000,
+    });
+
+    let polymorphs2 = document.querySelectorAll('.polymorph-svg2');
+    anime({
+        targets: polymorphs2,
+        d: [
+
+            {value: 'M495.778 189.953C495.778 280.649 345.813 329 231.721 329C117.628 329 -66.2604 207.889 25.1381 164.841C212.614 76.5623 117.628 0.604858 231.721 0.604858C345.813 0.604858 495.778 99.256 495.778 189.953Z'},
+            {value: 'M382.157 96.3015C382.157 177.718 242.189 341.965 141.276 301.179C13.0687 249.319 -26.3035 262.351 16.9782 179.452C56.2827 104.119 -15.4204 43.7974 65.8401 14.8649C169.092 -21.9441 382.157 14.8071 382.157 96.3015Z'},
+            {value: 'M420.094 155.19C420.094 236.607 315.828 343.446 214.915 302.66C86.7078 250.8 -33.5452 238.088 9.73652 155.19C49.041 79.8567 133.655 36.653 214.915 7.72053C318.167 -29.0884 420.094 73.6959 420.094 155.19Z'},
+            {value: 'M382.157 96.3015C382.157 177.718 242.189 341.965 141.276 301.179C13.0687 249.319 -26.3035 262.351 16.9782 179.452C56.2827 104.119 -15.4204 43.7974 65.8401 14.8649C169.092 -21.9441 382.157 14.8071 382.157 96.3015Z'},
+
+        ],
+        direction: 'alternate',
+        loop: true,
+        easing: 'easeInOutSine',
+        delay: 5,
+        duration: 16000,
+    });
+</script>
